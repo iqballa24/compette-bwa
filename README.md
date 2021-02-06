@@ -1,4 +1,4 @@
-# slicing-UI-compette-bwa
+# UI-Comppette Job Landing-bwa
 Design UI by https://pixel.buildwithangga.com/
 
 ## Deploy
