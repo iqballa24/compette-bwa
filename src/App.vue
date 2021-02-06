@@ -5,15 +5,17 @@
     <PartnerSection/>
     <ReasonSection/>
     <FeatureJobSection/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-import HeroSection from './components/HeroSection.vue'
-import PartnerSection from './components/PartnerSection.vue'
-import ReasonSection from './components/ReasonSection.vue'
-import FeatureJobSection from './components/FeatureJob.vue'
+import HeroSection from './components/HeroSection.vue';
+import PartnerSection from './components/PartnerSection.vue';
+import ReasonSection from './components/ReasonSection.vue';
+import FeatureJobSection from './components/FeatureJob.vue';
+import Footer from './components/Footer.vue';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default {
@@ -23,7 +25,8 @@ export default {
     HeroSection,
     PartnerSection,
     ReasonSection,
-    FeatureJobSection
+    FeatureJobSection,
+    Footer
   }
 }
 </script>
@@ -42,6 +45,7 @@ export default {
     margin: 0;
     padding: 0;
     font-family: 'Asap', sans-serif;
+    background: #FAFAFF;
   }
 
   h1{
@@ -51,6 +55,15 @@ export default {
   a:hover
   {
     text-decoration: none;
+  }
+
+  .a-custom{
+    text-decoration: underline;
+    color: #0F1D37;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .btn-primary
@@ -68,16 +81,6 @@ export default {
     color: #88561e;
     background-color:#f5a243 ;  
   }
-
-  @media (min-width: 992px) and (max-width: 1199.98px) { 
-
-    .container
-    {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-
-  }
-
+  
 
 </style>

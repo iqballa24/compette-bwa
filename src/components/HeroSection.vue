@@ -48,5 +48,24 @@ export default {
         position: absolute;
     }
 
+    @media (max-width: 537px) {
+        .hero-section .hero-image{
+
+        }
+    }
+
+    @media (max-width: 537px) {
+        .hero-section .hero-image{
+            top: 80%;
+        }
+    }
+
+     @media (max-width: 768px) {
+        .h1-hero{
+            font-size: 48px;
+        }
+    }
+
+     
 
 </style>
