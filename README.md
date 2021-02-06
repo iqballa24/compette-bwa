@@ -1,4 +1,10 @@
 # slicing-UI-compette-bwa
+Design UI by https://pixel.buildwithangga.com/
+
+## Deploy
+* [firebase](https://comppette-bwa.web.app/)
+
+
 
 ## Project setup
 ```
