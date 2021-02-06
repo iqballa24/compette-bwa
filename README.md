@@ -1,5 +1,5 @@
 # UI-Comppette Job Landing-bwa
-Design UI by https://pixel.buildwithangga.com/
+Design UI by https://pixel.buildwithangga.com/details/compette-job-landing
 
 ## Deploy
 * [firebase](https://comppette-bwa.web.app/)
