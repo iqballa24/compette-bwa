@@ -1,4 +1,4 @@
-# compette-bwa
+# slicing-UI-compette-bwa
 
 ## Project setup
 ```
