@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="navbar fixed-top bg-navbar navbar-expand-lg ">
+        <nav id="bg-darkblue" class="navbar fixed-top navbar-dark bg-darkblue navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="../assets/logo.png" class="d-inline-block align-top" alt="logo">
@@ -36,11 +36,18 @@
 export default {
     name: 'Navbar'
 }
+
 </script>
 
 <style scoped>
-    .bg-navbar{
+    .bg-darkblue{
         background-color: transparent;
+        transition: background-color 250ms linear;
+    }
+
+    .bg-darkblue.scrolled {
+        background: #10495C;
+        transition: background-color 250ms linear;
     }
 
     .navbar ul li.nav-item a{
@@ -56,4 +63,19 @@ export default {
         color: #F2AD5F;
         border-bottom: 1px solid #F2AD5F;
     }
+
+    @media (max-width: 991px){
+        .bg-darkblue{
+            background: #10495C;
+        }
+
+        .navbar{
+            text-align: center;
+        }
+
+        .navbar ul li.nav-item.active a{
+            border-bottom: none;
+        }
+    }
+
 </style>

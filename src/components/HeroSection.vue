@@ -2,12 +2,12 @@
     <div class="hero-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="h1-hero">Build Your Career. </h1>
-                    <h1 class="h1-hero mb-5">Grow Together & Faster.</h1>
-                    <a href="#" class="btn-primary">Explore More</a>
+                <div class="col-12 text-center" >
+                    <h1 class="h1-hero" data-aos="zoom-in">Build Your Career. </h1>
+                    <h1 class="h1-hero mb-5" data-aos="zoom-in">Grow Together & Faster.</h1>
+                    <a href="#" class="btn-primary" data-aos="zoom-in">Explore More</a>
                 </div>
-                <div class="col-12 text-center hero-image">
+                <div class="col-12 text-center hero-image" data-aos="zoom-in">
                     <img src="../assets/illustration.svg" alt="Gambar ilustrasi" class="img-fluid">
                 </div>
             </div>
@@ -48,9 +48,9 @@ export default {
         position: absolute;
     }
 
-    @media (max-width: 537px) {
-        .hero-section .hero-image{
-
+     @media (max-width: 768px) {
+        .h1-hero{
+            font-size: 48px;
         }
     }
 
@@ -60,9 +60,9 @@ export default {
         }
     }
 
-     @media (max-width: 768px) {
+    @media (max-width: 403px) {
         .h1-hero{
-            font-size: 48px;
+            font-size: 40px;
         }
     }
 

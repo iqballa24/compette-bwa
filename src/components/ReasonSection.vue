@@ -2,20 +2,20 @@
     <div class="reason-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 align-self-center">
+                <div class="col-lg-6 align-self-center" data-aos="zoom-in">
                     <img class="img-fluid" src="../assets/gallery.png" alt="image galery" style="width: 95%;">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="h1-reason">We help best people <br> like you across the world</h1>
+                    <h1 class="h1-reason" data-aos="zoom-in">We help best people <br> like you across the world</h1>
                     <ul class="list-reason">
-                        <li class="list-group-item"><img src="../assets/dot-green.svg" alt=""> Mastering work-life-balance</li>
-                        <li class="list-group-item"><img src="../assets/dot-yellow.svg" alt=""> Find the job based on your skills</li>
-                        <li class="list-group-item"><img src="../assets/dot-green.svg" alt=""> Helping preparing the paperwork</li>
-                        <li class="list-group-item"><img src="../assets/dot-yellow.svg" alt=""> 24/7 Best worker support</li>
-                        <li class="list-group-item"><img src="../assets/dot-green.svg" alt=""> Trusted payment protection</li>
+                        <li class="list-group-item" data-aos="zoom-in"><img src="../assets/dot-green.svg" alt=""> Mastering work-life-balance</li>
+                        <li class="list-group-item" data-aos="zoom-in"><img src="../assets/dot-yellow.svg" alt=""> Find the job based on your skills</li>
+                        <li class="list-group-item" data-aos="zoom-in"><img src="../assets/dot-green.svg" alt=""> Helping preparing the paperwork</li>
+                        <li class="list-group-item" data-aos="zoom-in"><img src="../assets/dot-yellow.svg" alt=""> 24/7 Best worker support</li>
+                        <li class="list-group-item" data-aos="zoom-in"><img src="../assets/dot-green.svg" alt=""> Trusted payment protection</li>
                     </ul>
                     <div class="more">
-                        <a class="a-custom" href="#">LEARN MORE ABOUT OUR BENEFIT</a>
+                        <a class="a-custom" href="#" data-aos="zoom-in">LEARN MORE ABOUT OUR BENEFIT</a>
                     </div>
                 </div>
             </div>
@@ -54,6 +54,13 @@
         margin-left: -60px;
     }
 
+
+    @media (max-width: 1199px) {
+        .h1-reason{
+            font-size: 40px;
+        }
+    }
+
     @media (max-width: 992px) {
        .h1-reason{
            margin-top: 30px;
@@ -61,9 +68,9 @@
        } 
     }
 
-    @media (max-width: 1199px) {
+    @media (max-width: 390px){
         .h1-reason{
-            font-size: 40px;
+            font-size: 34px;
         }
     }
 

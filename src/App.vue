@@ -5,6 +5,7 @@
     <PartnerSection/>
     <ReasonSection/>
     <FeatureJobSection/>
+    <SubscribeSection/>
     <Footer/>
   </div>
 </template>
@@ -15,8 +16,10 @@ import HeroSection from './components/HeroSection.vue';
 import PartnerSection from './components/PartnerSection.vue';
 import ReasonSection from './components/ReasonSection.vue';
 import FeatureJobSection from './components/FeatureJob.vue';
+import SubscribeSection from './components/SubscribeSection.vue';
 import Footer from './components/Footer.vue';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 export default {
   name: 'App',
@@ -26,9 +29,11 @@ export default {
     PartnerSection,
     ReasonSection,
     FeatureJobSection,
+    SubscribeSection,
     Footer
   }
 }
+
 </script>
 
 <style>

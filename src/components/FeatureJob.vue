@@ -3,13 +3,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="text-center">
-                        <h1>Our Feature Jobs</h1><h1>That Might You Need</h1>
+                    <div class="text-center" data-aos="zoom-in">
+                        <h1 class="h1-job">Our Feature Jobs</h1><h1>That Might You Need</h1>
                     </div>
                 </div>
                 <div class="col-12 card-feature">
                     <div class="row" >
-                        <div class="col-lg-3 col-md-6 ">
+                        <div class="col-lg-3 col-md-6 " data-aos="zoom-in">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="header-c d-flex flex-row">
@@ -27,7 +27,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 ">
+                        <div class="col-lg-3 col-md-6 " data-aos="zoom-in">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="header-c d-flex flex-row">
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="header-c d-flex flex-row">
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="header-c d-flex flex-row">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="a-custom" href="#">VIEW MORE INCOMING JOBS</a>
+                <a class="a-custom" href="#" data-aos="zoom-in">VIEW MORE INCOMING JOBS</a>
             </div>
         </div>
     </div>
@@ -155,9 +155,21 @@ export default {
        text-transform: uppercase;
     }
 
+    @media (max-width: 1199px) {
+        h1{
+            font-size: 40px;
+        }
+    }
+
     @media (max-width: 991px) {
         .card{
             margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 390px){
+        h1{
+            font-size: 34px;
         }
     }
     
